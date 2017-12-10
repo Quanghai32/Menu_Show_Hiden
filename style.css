@@ -1,0 +1,35 @@
+body{
+    font-family: helvetica;
+    font-size:15px;
+  }
+  #menu{
+      border: 1px solid red;
+  }
+  #menu ul{
+    background:#635E60;
+    /* width:250px; */
+    padding:0;
+    list-style-type:none;
+  }
+  #menu ul li{
+    width:auto;
+    line-height:40px;
+    /* border-bottom:1px solid black; */
+    padding: 0 1em;
+  }
+  #menu ul li a{
+    text-decoration:none;
+    color:whitesmoke;
+    font-weight:bold;
+    display:block;
+  }
+  #menu ul li :hover{
+    background:#999;
+  }
+  #menu .sub-menu{
+    /* top:0px; */
+    display: none;
+  }
+.active{
+    background: #3A3C3E;
+}
